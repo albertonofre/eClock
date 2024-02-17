@@ -1,0 +1,49 @@
+{
+    "preguntas": [
+        {
+            "texto": "¿Cómo calificarías la calidad de nuestro servicio?",
+            "obligatoria": false,
+            "tipo": "rango",
+            "rangoMaximo": 5,
+            "icono": "star",
+            "opciones": []
+        },
+        {
+            "texto": "¿Cómo calificarías la calidad de nuestro servicio?",
+            "obligatoria": false,
+            "tipo": "cerrado",
+            "rangoMaximo": null,
+            "icono": "",
+            "opciones": []
+        },
+        {
+            "texto": "¿Cómo calificarías la calidad de nuestro servicio?",
+            "obligatoria": false,
+            "tipo": "abierto",
+            "rangoMaximo": null,
+            "icono": "",
+            "opciones": []
+        },
+        {
+            "texto": "¿Cómo calificarías la calidad de nuestro servicio?",
+            "obligatoria": false,
+            "tipo": "rango",
+            "rangoMaximo": "4",
+            "icono": "smile-beam",
+            "opciones": []
+        },
+        {
+            "texto": "¿Cómo calificarías la calidad de nuestro servicio?",
+            "obligatoria": false,
+            "tipo": "opciones",
+            "rangoMaximo": null,
+            "icono": "",
+            "opciones": [
+                "Opcion1",
+                "Opcion2",
+                "Opcion3",
+                "Opcion4"
+            ]
+        }
+    ]
+}

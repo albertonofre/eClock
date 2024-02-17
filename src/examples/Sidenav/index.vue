@@ -1,10 +1,12 @@
 <template>
   <div
+  
     v-show="this.$store.state.layout === 'default'"
     class="min-height-300 position-absolute w-100"
     :class="`${this.$store.state.darkMode ? 'bg-transparent' : 'bg-success'}`"
   />
   <aside
+    style="border: 2px solid #2dce89;"
     class="my-3 overflow-auto border-0 sidenav navbar navbar-vertical navbar-expand-xs border-radius-xl"
     :class="`${
       this.$store.state.isRTL
@@ -24,21 +26,12 @@
         aria-hidden="true"
         id="iconSidenav"
       ></i>
-      <router-link class="m-0 navbar-brand" to="/">
-        <img
-          :src="
-            this.$store.state.darkMode ||
-            this.$store.state.sidebarType === 'bg-default'
-              ? logoWhite
-              : logo
-          "
-          class="navbar-brand-img h-100"
-          alt="main_logo"
-        />
-        <span class="ms-2 font-weight-bold me-2">Argon Dashboard 2</span>
+      <router-link class="m-0 navbar-brand text-center" to="/">
+       
+        <span style="font-size: 20px;" class="ms-2 font-weight-bold ">Alberto OG</span>
       </router-link>
     </div>
-    <hr class="mt-0 horizontal dark" />
+    <hr style="height: 3px; background-color: black ;"  class="mx-5 mt-n2 " />
     <sidenav-list :cardBg="custom_class" />
   </aside>
 </template>
