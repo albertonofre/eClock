@@ -1,10 +1,12 @@
 # download
- git clone 
+ git clone https://github.com/albertonofre/eClock.git
 # installation
 cd /eClock
+
 npm install
-# run serve
+
+# INICIAR SERVIDOR
 npm run serve
 
-# JSON RESULT 
+# MIS RESULTADOS DE LA PRUEBA 
 Open Result.json
